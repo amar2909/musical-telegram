@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(218, 253, 161);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+  }
+  
+  .logoImg {
+    width: 50px;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .button{
+    background-color: blue;
+    color: cornsilk;
+    border-radius: 5px;
+    font-size: 30px;
+    border-color: crimson;
+  }
+  .newButton{
+    background-color: cornflowerblue;
+  }
+
+  .container{
+    background-color: aliceblue;
+    position: relative;
+    
+  }    
+  .image {
+    width: 300px;
+    height: 200px;
+    position: absolute ;       
+    right: 0px;
+  }
+  
+p{
+    white-space: pre-line;
+}
+.about{
+   display: flex;
+    padding: 90px;
+    background-color: aliceblue;
+}
+.meTag{
+  padding-left: 20px;
+  word-break: break-all;
+} 
+
+.box {
+
+  border-radius: 25px;
+  
+  justify-content: space-around;
+  width: 30px;
+  height: 20px;
+  background-color: #ccc;
+  padding: 20px;
+  border: 1px solid #000;
+}
+.text {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #000;
+  text-align: center;
+}
+
+.text {
+  width: 50%;
+}
+.box-container {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+.box {
+  width: 30px;
+  height: 20px;
+  margin: 10px;
+  background-color: #ccc;
+  border: 1px solid #000;
+}
+
+
